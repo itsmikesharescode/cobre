@@ -170,7 +170,7 @@
 	<Card.Content class="px-2 pt-4 sm:px-6 sm:pt-6">
 		<Chart.Container config={chartConfig} class="aspect-auto h-[250px] w-full">
 			<AreaChart
-				legend
+				legend={{ class: 'absolute -top-5 right-0' }}
 				data={filteredData}
 				x="date"
 				xScale={scaleUtc()}
