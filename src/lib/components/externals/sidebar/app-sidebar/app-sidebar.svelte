@@ -28,12 +28,12 @@
 		navMain: [
 			{
 				title: 'Dashboard',
-				url: '#',
+				url: '/admin',
 				icon: DashboardIcon
 			},
 			{
-				title: 'Lifecycle',
-				url: '#',
+				title: 'Courses',
+				url: '/admin/courses',
 				icon: ListDetailsIcon
 			},
 			{
@@ -50,88 +50,6 @@
 				title: 'Team',
 				url: '#',
 				icon: UsersIcon
-			}
-		],
-		navClouds: [
-			{
-				title: 'Capture',
-				icon: CameraIcon,
-				isActive: true,
-				url: '#',
-				items: [
-					{
-						title: 'Active Proposals',
-						url: '#'
-					},
-					{
-						title: 'Archived',
-						url: '#'
-					}
-				]
-			},
-			{
-				title: 'Proposal',
-				icon: FileDescriptionIcon,
-				url: '#',
-				items: [
-					{
-						title: 'Active Proposals',
-						url: '#'
-					},
-					{
-						title: 'Archived',
-						url: '#'
-					}
-				]
-			},
-			{
-				title: 'Prompts',
-				icon: FileAiIcon,
-				url: '#',
-				items: [
-					{
-						title: 'Active Proposals',
-						url: '#'
-					},
-					{
-						title: 'Archived',
-						url: '#'
-					}
-				]
-			}
-		],
-		navSecondary: [
-			{
-				title: 'Settings',
-				url: '#',
-				icon: SettingsIcon
-			},
-			{
-				title: 'Get Help',
-				url: '#',
-				icon: HelpIcon
-			},
-			{
-				title: 'Search',
-				url: '#',
-				icon: SearchIcon
-			}
-		],
-		documents: [
-			{
-				name: 'Data Library',
-				url: '#',
-				icon: DatabaseIcon
-			},
-			{
-				name: 'Reports',
-				url: '#',
-				icon: ReportIcon
-			},
-			{
-				name: 'Word Assistant',
-				url: '#',
-				icon: FileWordIcon
 			}
 		]
 	};
